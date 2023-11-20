@@ -1,0 +1,68 @@
+.card{    
+    margin: 10px; 
+}
+
+.card-contant{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 2px 2px 1px rgb(207, 204, 204);
+}
+
+.card-top{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.heading p{
+    margin: 0;
+    font-weight: 400;
+    color: gray;
+    
+}
+.img{
+     height: 20px;
+    width: 20px; 
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.card-mid p{
+  margin: 5px 0;
+   font-weight: 600;
+   font-size: 15px;
+}
+
+.card-bottom{
+    display: flex;
+    margin-top: 3px;
+    
+}
+
+
+.card-request{
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 8px;
+    padding: 0px  5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dots{
+    width: 15px;
+    height: 15px;
+    background-color: gainsboro;
+    margin: 3px;
+    border-radius: 50%;
+}
+.card-request p{
+    margin: 0;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400; 
+
+}

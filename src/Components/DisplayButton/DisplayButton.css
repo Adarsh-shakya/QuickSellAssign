@@ -1,0 +1,62 @@
+.DisplayButton{
+    height: 50px;
+}
+
+.display nav ul{
+    list-style: none;
+    
+    
+}
+
+
+#checkbtn{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    top:8px;
+    width: 90px;
+    left: 24px;
+    color: black;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    
+ }
+
+ .list{
+    position: absolute;
+    padding: 5px;
+    top: 30px;
+    left: 60px;
+    border: 1px solid gainsboro;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 255);
+    display: none;
+
+ }
+ .list li{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+ }
+
+ #link{
+    text-decoration: none;
+    width: 80px;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(216, 216, 219);
+    border-radius: 5px;
+    text-align: center;
+ }
+ #check{
+    display: none;
+ }
+
+ #check:checked ~ .list{
+        
+    display: block;
+ }

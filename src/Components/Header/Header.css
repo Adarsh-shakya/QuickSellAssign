@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.header-card{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 10px;
+}
+.header-card-left p{
+    margin: 0;
+}
+
+.header-card-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    
+}
+.header-card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-card-right i{
+    font-size: 25px;
+}
